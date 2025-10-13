@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/styleroom/static/css/main.f855e6bc.css",
+    "main.js": "/styleroom/static/js/main.8aad4029.js",
+    "static/js/453.959845fa.chunk.js": "/styleroom/static/js/453.959845fa.chunk.js",
+    "static/media/logo.svg": "/styleroom/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/styleroom/index.html",
+    "main.f855e6bc.css.map": "/styleroom/static/css/main.f855e6bc.css.map",
+    "main.8aad4029.js.map": "/styleroom/static/js/main.8aad4029.js.map",
+    "453.959845fa.chunk.js.map": "/styleroom/static/js/453.959845fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8aad4029.js"
+  ]
+}

@@ -1,6 +1,12 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 function App() {
   return (
-    <div>styleroom</div>
+    <div className="osnova">
+      <Header />
+      <Footer />
+    </div>
   );
 }
 

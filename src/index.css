@@ -7,7 +7,7 @@
 }
 
 body {
-  background: #fdf7fb;
+  background: #f8fdf7;
   color: black;
   font-family: "Oranienbaum", serif;
   font-weight: 400;
@@ -60,7 +60,7 @@ header .presentation::after {
   width: 300px;
   font-size: 42px;
   font-weight: 500;
-  color: #fdf7fb;
+  color: #f8fdf7;
 }
 
 header .presentation::before {
@@ -71,12 +71,30 @@ header .presentation::before {
   width: 300px;
   font-size: 30px;
   font-weight: 500;
-  color: #fdf7fb;
+  color: #f8fdf7;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .item {
+  width: 30%;
+  margin-bottom: 50px;
+  background: #fcfdf7;
+}
+
+main .item img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
 }
 
 footer {
   text-align: center;
   margin-top: 50px;
-  font-size: 34px;
+  font-size: 43px;
   font-weight: 540;
 }

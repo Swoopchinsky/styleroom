@@ -85,11 +85,51 @@ main .item {
   width: 30%;
   margin-bottom: 50px;
   background: #fcfdf7;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 22px;
 }
 
 main .item img {
   width: 100%;
   border-radius: 20px 20px 0 0;
+  transition: transform 600ms ease;
+}
+
+main .item img:hover {
+  transform: scale(1.12);
+}
+
+main h2,
+main p,
+main b {
+  margin: 12px 22px;
+  color: #1a1010;
+}
+
+main b {
+  color: #243207;
+}
+
+main .add-to-cart {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  background: #d5fd67;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #2a3328;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: 800;
+  transition: transform 700ms ease;
+}
+
+main .add-to-cart:hover {
+  transform: scale(1.6) translateY(-8px);
 }
 
 footer {

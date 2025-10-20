@@ -78,14 +78,13 @@ header .shop-cart .empy h2 {
 }
 
 header .shop-cart .item {
-  width: 10%;
+  width: 18%;
   float: left;
   margin-bottom: 22px;
 }
 
 header .shop-cart .item img {
   width: 80px;
-  height: 80px;
   float: left;
   margin-right: 22px;
 }

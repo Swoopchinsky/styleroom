@@ -89,12 +89,12 @@ header .shop-cart .item img {
   margin-right: 22px;
 }
 
-header .shop-cart .itam h2 {
+header .shop-cart .item h2 {
   font-size: 38px;
   margin-bottom: 14px;
 }
 
-header .shop-cart .itam p {
+header .shop-cart .item p {
   color: #425c0d;
   font-weight: 600;
   font-size: 40px;

@@ -18,6 +18,10 @@ body {
   margin: 50px auto;
 }
 
+header {
+  position: relative;
+}
+
 header .span {
   font-weight: 800;
   font-size: 40px;
@@ -37,6 +41,63 @@ header ul.nav li {
 
 header ul.nav li:hover {
   opacity: 0.4;
+}
+
+header .shop-cart-button {
+  float: right;
+  cursor: pointer;
+  transition: color, transform 600ms ease;
+  font-size: 44px;
+}
+
+header .shop-cart-button:hover,
+header .shop-cart-button.active {
+  color: #7ba40c;
+  transform: scale(1.6);
+}
+
+header .shop-cart {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 480px;
+  background: #eef7d6;
+  -webkit-box-shadow: -24px 24px 44px -12px rgba(126, 127, 131, 0.33);
+  -moz-box-shadow: -24px 24px 44px -12px rgba(126, 127, 131, 0.33);
+  box-shadow: -24px 24px 44px -12px rgba(126, 127, 131, 0.33);
+  z-index: 1000;
+  border-radius: 20px;
+
+  padding: 22px;
+  padding-bottom: 0;
+}
+
+header .shop-cart .empy h2 {
+  font-size: 38px;
+  margin-bottom: 22px;
+}
+
+header .shop-cart .item {
+  width: 100%;
+  float: left;
+  margin-bottom: 22px;
+}
+
+header .shop-cadt .item img {
+  width: 80px;
+  float: left;
+  margin-right: 22px;
+}
+
+header .shop-cadt .itam h2 {
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+header .shop-cadt .itam p {
+  color: #425c0d;
+  font-weight: 600;
+  font-size: 40px;
 }
 
 header .presentation {
@@ -97,7 +158,7 @@ main .item img {
 }
 
 main .item img:hover {
-  transform: scale(1.12);
+  transform: scale(2.1);
 }
 
 main h2,

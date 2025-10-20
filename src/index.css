@@ -83,19 +83,19 @@ header .shop-cart .item {
   margin-bottom: 22px;
 }
 
-header .shop-cadt .item img {
+header .shop-cart .item img {
   width: 80px;
   height: 80px;
   float: left;
   margin-right: 22px;
 }
 
-header .shop-cadt .itam h2 {
+header .shop-cart .itam h2 {
   font-size: 38px;
   margin-bottom: 14px;
 }
 
-header .shop-cadt .itam p {
+header .shop-cart .itam p {
   color: #425c0d;
   font-weight: 600;
   font-size: 40px;
@@ -155,11 +155,11 @@ main .item {
 main .item img {
   width: 100%;
   border-radius: 20px 20px 0 0;
-  transition: transform 600ms ease;
+  transition: transform 500ms ease;
 }
 
 main .item img:hover {
-  transform: scale(2.1);
+  transform: scale(1.9);
 }
 
 main h2,
@@ -187,7 +187,7 @@ main .add-to-cart {
   cursor: pointer;
   font-size: 40px;
   font-weight: 800;
-  transition: transform 700ms ease;
+  transition: transform 500ms ease;
 }
 
 main .add-to-cart:hover {

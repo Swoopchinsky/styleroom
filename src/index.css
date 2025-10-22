@@ -46,7 +46,7 @@ header ul.nav li:hover {
 header .shop-cart-button {
   float: right;
   cursor: pointer;
-  transition: color, transform 900ms ease;
+  transition: color, transform 1900ms ease;
   font-size: 44px;
 }
 

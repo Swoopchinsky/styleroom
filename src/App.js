@@ -15,7 +15,7 @@ class App extends React.Component {
           img: 'panther.png',
           desc: 'Масло, холст',
           category: 'oil',
-          price: '500 000'
+          price: '500000'
         },
         {
           id: 2,
@@ -23,7 +23,7 @@ class App extends React.Component {
           img: 'lef.png',
           desc: 'Масло, холст',
           category: 'oil',
-          price: '1 000 000'
+          price: '1000000'
         },
         {
           id: 3,
@@ -31,7 +31,7 @@ class App extends React.Component {
           img: 'tigr.png',
           desc: 'Масло, холст',
           category: 'oil',
-          price: '500 000'
+          price: '500000'
         },
         {
           id: 4,
@@ -39,23 +39,23 @@ class App extends React.Component {
           img: 'luch.png',
           desc: 'Масло, холст',
           category: 'oil',
-          price: '700 000'
+          price: '700000'
         },
         {
           id: 5,
           title: 'ring',
           img: 'ring.png',
-          desc: 'не ржавеющая сталь + янтарь',
+          desc: 'нержавеющая сталь + янтарь',
           category: 'style',
-          price: '1 000'
+          price: '1000'
         },
         {
           id: 6,
           title: 'bullet ring',
           img: 'ringbullet.png',
-          desc: 'не ржавеющая сталь + пуля 1920 г.',
+          desc: 'нержавеющая сталь + пуля 1920 г.',
           category: 'style',
-          price: '50 000'
+          price: '50000'
         },
         {
           id: 7,
@@ -63,7 +63,7 @@ class App extends React.Component {
           img: 'horse.png',
           desc: 'масло + холст',
           category: 'oil',
-          price: '8 000'
+          price: '8000'
         },
         {
           id: 8,
@@ -71,20 +71,25 @@ class App extends React.Component {
           img: 'path.png',
           desc: 'бумага + акварель',
           category: 'shik',
-          price: '17 000'
+          price: '17000'
         }
       ]
     }
     this.addToOrder = this.addToOrder.bind(this)
+    this.deleteOrder = this.deleteOrder.bind(this)
   }
   render() {
     return (
       <div className="osnova">
-        <Header orders={this.state.orders} />
+        <Header orders={this.state.orders} onDelete={this.deleteOrder} />
         <Items items={this.state.items} onAdd={this.addToOrder} />
         <Footer />
       </div>
     )
+  }
+
+  deleteOrder(id) {
+    this.setState({ orders: this.state.orders.filter(el => el.id !== id) })
   }
 
   addToOrder(item) {
@@ -97,5 +102,7 @@ class App extends React.Component {
       this.setState({ orders: [...this.state.orders, item] })
   }
 }
+
+
 
 export default App;

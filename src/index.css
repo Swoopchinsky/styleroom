@@ -46,7 +46,7 @@ header ul.nav li:hover {
 header .shop-cart-button {
   float: right;
   cursor: pointer;
-  transition: color, transform 600ms ease;
+  transition: color, transform 900ms ease;
   font-size: 44px;
 }
 
@@ -84,7 +84,7 @@ header .shop-cart .item {
 }
 
 header .shop-cart .item img {
-  width: 90px;
+  width: 110px;
   float: left;
   margin-right: 22px;
 }
@@ -97,8 +97,34 @@ header .shop-cart .item h2 {
 header .shop-cart .item p {
   color: #425c0d;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 44px;
 }
+
+header .shop-cart .item .delete {
+  color: #425c0d;
+  float: right;
+  position: relative;
+  top: -40px;
+  cursor: pointer;
+  font-size: 34px;
+  transition: color, transform 700ms ease;
+}
+
+header .shop-cart .item .delete:hover {
+  color: #b5ea26;
+  background-color: #486117;
+  border-radius: 50%;
+  transform: scale(1.3);
+}
+
+header .shop-cart .summa {
+  width: 100%;
+  font-size: 42px;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+
 
 header .presentation {
   margin: 50px 0;

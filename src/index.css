@@ -46,7 +46,7 @@ header ul.nav li:hover {
 header .shop-cart-button {
   float: right;
   cursor: pointer;
-  transition: color, transform 1900ms ease;
+  transition: color, transform 500ms ease;
   font-size: 44px;
 }
 
@@ -159,6 +159,24 @@ header .presentation::before {
   font-size: 30px;
   font-weight: 500;
   color: #f8fdf7;
+}
+
+.categories div {
+  display: inline-block;
+  background: #ecf7d7;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  font-size: 39px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 700ms ease;
+}
+
+.categories div:hover {
+  border-color: #67821b;
+  transform: scale(1.11);
 }
 
 main {

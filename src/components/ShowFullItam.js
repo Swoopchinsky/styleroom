@@ -4,7 +4,7 @@ export class ShowFullItam extends Component {
     render() {
         return (
             <div className='full-item'>
-                <div>
+                <div >
                     <img src={"./img/" + this.props.item.img} alt="style" onClick={() => this.props.onShowItem(this.props.item)} />
 
                     <h2>{this.props.item.title}</h2>

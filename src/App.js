@@ -15,7 +15,7 @@ class App extends React.Component {
         {
           id: 1,
           title: 'panther',
-          img: 'panther.png',
+          img: 'panther.jpg',
           desc: 'Масло, холст',
           category: 'oil',
           price: '500000'
@@ -23,7 +23,7 @@ class App extends React.Component {
         {
           id: 2,
           title: 'lef',
-          img: 'lef.png',
+          img: 'lef.jpg',
           desc: 'Масло, холст',
           category: 'oil',
           price: '1000000'
@@ -31,7 +31,7 @@ class App extends React.Component {
         {
           id: 3,
           title: 'tigr',
-          img: 'tigr.png',
+          img: 'tigr.jpg',
           desc: 'Масло, холст',
           category: 'oil',
           price: '500000'
@@ -39,7 +39,7 @@ class App extends React.Component {
         {
           id: 4,
           title: 'luch',
-          img: 'luch.png',
+          img: 'luch.jpg',
           desc: 'Масло, холст',
           category: 'oil',
           price: '700000'
@@ -47,7 +47,7 @@ class App extends React.Component {
         {
           id: 5,
           title: 'ring',
-          img: 'ring.png',
+          img: 'ring.jpg',
           desc: 'нержавеющая сталь + янтарь',
           category: 'stons',
           price: '1000'
@@ -55,7 +55,7 @@ class App extends React.Component {
         {
           id: 6,
           title: 'bullet ring',
-          img: 'ringbullet.png',
+          img: 'ringbullet.jpg',
           desc: 'нержавеющая сталь + пуля 1920 г.',
           category: 'style',
           price: '50000'
@@ -63,7 +63,7 @@ class App extends React.Component {
         {
           id: 7,
           title: 'horse',
-          img: 'horse.png',
+          img: 'horse.jpg',
           desc: 'масло + холст',
           category: 'oil',
           price: '8000'
@@ -71,7 +71,7 @@ class App extends React.Component {
         {
           id: 8,
           title: 'path',
-          img: 'path.png',
+          img: 'path.jpg',
           desc: 'бумага + акварель',
           category: 'shik',
           price: '17000'

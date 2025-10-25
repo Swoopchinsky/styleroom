@@ -49,7 +49,7 @@ class App extends React.Component {
           title: 'ring',
           img: 'ring.jpg',
           desc: 'нержавеющая сталь + янтарь',
-          category: 'stons',
+          category: 'style',
           price: '1000'
         },
         {
@@ -75,7 +75,40 @@ class App extends React.Component {
           desc: 'бумага + акварель',
           category: 'shik',
           price: '17000'
+        },
+        {
+          id: 9,
+          title: 'ship',
+          img: 'ship.jpg',
+          desc: 'Масло - картон',
+          category: 'oil',
+          price: '14000'
+        },
+        {
+          id: 10,
+          title: 'view',
+          img: 'view.jpg',
+          desc: 'Масло - картон',
+          category: 'oil',
+          price: '16500'
+        },
+        {
+          id: 11,
+          title: 'shine',
+          img: 'shine.jpg',
+          desc: 'священный камент',
+          category: 'stons',
+          price: '30000'
+        },
+        {
+          id: 12,
+          title: 'amulet',
+          img: 'amulet.jpg',
+          desc: 'приносит Удачу',
+          category: 'stons',
+          price: '6000'
         }
+
       ],
       showFullItem: false,
       fullItem: {}

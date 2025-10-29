@@ -32,16 +32,7 @@ header ul.nav {
   list-style: none;
 }
 
-header ul.nav li {
-  display: inline;
-  margin-left: 20px;
-  cursor: pointer;
-  transition: opacity 600ms ease;
-}
 
-header ul.nav li:hover {
-  opacity: 0.4;
-}
 
 header .butInfo {
   font-size: 44px;
@@ -51,6 +42,7 @@ header .butInfo {
   border-radius: 30px;
   background-color: #8ca054;
   color: #f2f8cb;
+  cursor: pointer;
   transition: color, transform 700ms ease;
 }
 
@@ -63,6 +55,38 @@ header .butInfo.active {
 
 header .info {
   width: 644px;
+  background-color: #f3fae5d7;
+  position: relative;
+  z-index: 1500;
+  font-size: 42px;
+  padding: 11px;
+  border-radius: 12px;
+  margin-top: 14px;
+  position: absolute;
+  margin-left: -860px;
+}
+
+header .butNews {
+  font-size: 44px;
+  margin-left: 34px;
+  margin-right: 34px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #8ca054;
+  color: #f2f8cb;
+  cursor: pointer;
+  transition: color, transform 700ms ease;
+}
+
+header .butNews:hover,
+header .butNews.active {
+  background-color: #edfacb;
+  color: #486117;
+  transform: scale(1.2);
+}
+
+header .news {
+  width: 540px;
   background-color: #f3fae5b8;
   position: relative;
   z-index: 1500;
@@ -70,8 +94,42 @@ header .info {
   padding: 11px;
   border-radius: 12px;
   margin-top: 14px;
-
+  position: absolute;
+  margin-left: -194px;
 }
+
+header .butBrain {
+  font-size: 44px;
+  margin-left: 34px;
+  margin-right: 34px;
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #8ca054;
+  color: #f2f8cb;
+  cursor: pointer;
+  transition: color, transform 700ms ease;
+}
+
+header .butBrain:hover,
+header .butBrain.active {
+  background-color: #edfacb;
+  color: #486117;
+  transform: scale(1.2);
+}
+
+header .brain {
+  width: 240px;
+  background-color: #fcfff4;
+  position: relative;
+  z-index: 1500;
+  font-size: 42px;
+  padding: 11px;
+  border-radius: 12px;
+  margin-top: 14px;
+  position: absolute;
+  margin-left: 284px;
+}
+
 
 header .shop-cart-button {
   float: right;
@@ -103,7 +161,7 @@ header .shop-cart {
 }
 
 header .shop-cart .empy h2 {
-  font-size: 38px;
+  font-size: 44px;
   margin-bottom: 22px;
 }
 
@@ -120,7 +178,7 @@ header .shop-cart .item img {
 }
 
 header .shop-cart .item h2 {
-  font-size: 38px;
+  font-size: 44px;
   margin-bottom: 14px;
 }
 

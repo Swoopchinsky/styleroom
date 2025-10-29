@@ -28,6 +28,8 @@ export default function Header(props) {
     let [cartOpen, setCartOpen] = useState(false)
 
     let [butInfo, setButInfo] = useState(false)
+    let [butNews, setButNews] = useState(false)
+    let [butBrain, setButBrain] = useState(false)
 
     return (
         <header>
@@ -40,16 +42,38 @@ export default function Header(props) {
                             + 7 921 593 63 24 карта Сбер. <br />
                             Игорь Борисович <br />
                             Город Санкт-Петербург <br />
-                            Автор данного проекта. <dr />
+                            Автор проекта. <dr />
                             Создание Вэб сайтов на языкн JavaScript при помощи ReactJS технологий. <dr />
-                            Продажа произведений Искусства и кастомных украшений, амутов. <br />
+                            Продажа произведений Искусства и кастомных украшений, амулетов. <br />
                             Изучить Объекты торга можно на Академическом переулке Васильевского острова. <br />
                             По предварительной записи по телефону или в мессенжерах.
                         </div>
                     )}
 
-                    <li>Слушай</li>
-                    <li>Существую</li>
+                    <button onClick={() => setButNews(butNews = !butNews)} className={`butNews ${butNews && 'active'}`} >News</button>
+                    {butNews && (
+                        <div className='news'>
+                            Рабиновичи в театре: <br />
+                            -Сарочка, тебе удобно сидеть? <br />
+                            -Да, Абрамчик, удобно! <br />
+                            -Тебе видно? <br />
+                            -Да, любимый <br />
+                            -Тебе не дует? <br />
+                            -Нет, золотой. <br />
+                            -Давай поменяемся местами. <br />
+                            : <br />
+                            "Нет богатства лучше телесного здоровья" <br />
+
+                        </div>
+                    )}
+                    <button onClick={() => setButBrain(butBrain = !butBrain)} className={`butBrain ${butBrain && 'active'}`} >brain</button>
+                    {butBrain && (
+                        <div className='brain'>
+                            Мозг человеческий невероятно сложен.
+                            В нем есть такие закоулки, о которых его
+                            обладатель даже не подозревает.
+                        </div>
+                    )}
 
                 </ul>
 

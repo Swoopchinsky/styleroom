@@ -27,14 +27,30 @@ const showNothing = () => {
 export default function Header(props) {
     let [cartOpen, setCartOpen] = useState(false)
 
+    let [butInfo, setButInfo] = useState(false)
+
     return (
         <header>
             <div>
                 <span className='span'>styleroom</span>
                 <ul className='nav'>
-                    <li>Смотри</li>
+                    <button onClick={() => setButInfo(butInfo = !butInfo)} className={`butInfo ${butInfo && 'active'}`} >Info</button>
+                    {butInfo && (
+                        <div className='info'>
+                            + 7 921 593 63 24 карта Сбер. <br />
+                            Игорь Борисович <br />
+                            Город Санкт-Петербург <br />
+                            Автор данного проекта. <dr />
+                            Создание Вэб сайтов на языкн JavaScript при помощи ReactJS технологий. <dr />
+                            Продажа произведений Искусства и кастомных украшений, амутов. <br />
+                            Изучить Объекты торга можно на Академическом переулке Васильевского острова. <br />
+                            По предварительной записи по телефону или в мессенжерах.
+                        </div>
+                    )}
+
                     <li>Слушай</li>
                     <li>Существую</li>
+
                 </ul>
 
                 <TiShoppingCart onClick={() => setCartOpen(cartOpen = !cartOpen)} className={`shop-cart-button ${cartOpen && 'active'}`} />

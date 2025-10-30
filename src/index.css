@@ -40,16 +40,16 @@ header .butInfo {
   margin-right: 34px;
   padding: 8px;
   border-radius: 30px;
-  background-color: #cefc4e7d;
-  color: #696c858e;
+  background-color: #f5fbe44a;
+  color: #1e241c;
   cursor: pointer;
   transition: color, transform 700ms ease;
 }
 
 header .butInfo:hover,
 header .butInfo.active {
-  background-color: #edfacb;
-  color: #486117;
+  background-color: #edfacbb9;
+  color: #111705;
   transform: scale(1.2);
 }
 
@@ -72,8 +72,8 @@ header .butNews {
   margin-right: 34px;
   padding: 8px;
   border-radius: 30px;
-  background-color: #c1f59397;
-  color: #528d78;
+  background-color: #f3feea2c;
+  color: #0e1714;
   cursor: pointer;
   transition: color, transform 700ms ease;
 }
@@ -81,7 +81,7 @@ header .butNews {
 header .butNews:hover,
 header .butNews.active {
   background-color: #edfacb;
-  color: #486117;
+  color: #141a07;
   transform: scale(1.2);
 }
 
@@ -104,8 +104,8 @@ header .butBrain {
   margin-right: 34px;
   padding: 8px;
   border-radius: 30px;
-  background-color: #cbe680a8;
-  color: #848f39;
+  background-color: #cbe6801d;
+  color: #1b1e0d;
   cursor: pointer;
   transition: color, transform 700ms ease;
 }
@@ -113,7 +113,7 @@ header .butBrain {
 header .butBrain:hover,
 header .butBrain.active {
   background-color: #edfacb;
-  color: #486117;
+  color: #0d1104;
   transform: scale(1.2);
 }
 

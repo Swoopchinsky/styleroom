@@ -145,7 +145,7 @@ class App extends React.Component {
           title: 'heart 2',
           img: 'heart 2.png',
           desc: 'Крнцентрация и контроль',
-          category: 'shik',
+          category: 'stons',
           price: '9300'
         },
         {
@@ -153,7 +153,7 @@ class App extends React.Component {
           title: 'heart 3',
           img: 'heart 3.png',
           desc: 'Обояние и красота',
-          category: 'shik',
+          category: 'stons',
           price: '11000'
         }
 

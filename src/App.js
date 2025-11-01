@@ -107,6 +107,38 @@ class App extends React.Component {
           desc: 'приносит Удачу',
           category: 'stons',
           price: '6000'
+        },
+        {
+          id: 13,
+          title: 'dance',
+          img: 'danse.png',
+          desc: 'Элегантность линий. 70X99 см',
+          category: 'shik',
+          price: '53000'
+        },
+        {
+          id: 14,
+          title: 'gypsy woman',
+          img: 'gypsy woman.png',
+          desc: 'Лёгкость движений. 101X149 см',
+          category: 'shik',
+          price: '20000'
+        },
+        {
+          id: 15,
+          title: 'gypsy woman',
+          img: 'gypsy woman.png',
+          desc: 'Лёгкость движений. 101X149 см',
+          category: 'shik',
+          price: '20000'
+        },
+        {
+          id: 16,
+          title: 'grace',
+          img: 'grace.png',
+          desc: 'Элегантность форм. 55X126 см',
+          category: 'shik',
+          price: '140000'
         }
 
       ],

@@ -131,6 +131,30 @@ class App extends React.Component {
           desc: 'Элегантность форм. 55X126 см',
           category: 'shik',
           price: '140000'
+        },
+        {
+          id: 16,
+          title: 'heart 1',
+          img: 'heart 1.png',
+          desc: 'Источник позитивной энергии',
+          category: 'stons',
+          price: '8000'
+        },
+        {
+          id: 17,
+          title: 'heart 2',
+          img: 'heart 2.png',
+          desc: 'Крнцентрация и контроль',
+          category: 'shik',
+          price: '9300'
+        },
+        {
+          id: 18,
+          title: 'heart 3',
+          img: 'heart 3.png',
+          desc: 'Обояние и красота',
+          category: 'shik',
+          price: '11000'
         }
 
       ],

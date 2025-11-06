@@ -16,7 +16,7 @@ class App extends React.Component {
           id: 1,
           title: 'panther',
           img: 'panther.jpg',
-          desc: 'Масло, холст',
+          desc: 'Масло, холст 400X500',
           category: 'oil',
           price: '500000'
         },
@@ -24,7 +24,7 @@ class App extends React.Component {
           id: 2,
           title: 'lef',
           img: 'lef.jpg',
-          desc: 'Масло, холст',
+          desc: 'Масло, холст 400X500',
           category: 'oil',
           price: '1000000'
         },
@@ -32,7 +32,7 @@ class App extends React.Component {
           id: 3,
           title: 'tigr',
           img: 'tigr.jpg',
-          desc: 'Масло, холст',
+          desc: 'Масло, холст 400X500',
           category: 'oil',
           price: '500000'
         },
@@ -40,7 +40,7 @@ class App extends React.Component {
           id: 4,
           title: 'luch',
           img: 'luch.jpg',
-          desc: 'Масло, холст',
+          desc: 'Масло, холст 400X300',
           category: 'oil',
           price: '700000'
         },
@@ -64,15 +64,15 @@ class App extends React.Component {
           id: 7,
           title: 'horse',
           img: 'horse.jpg',
-          desc: 'масло + холст',
+          desc: 'масло + холст 400X300',
           category: 'oil',
-          price: '8000'
+          price: '98000'
         },
         {
           id: 8,
           title: 'path',
           img: 'path.jpg',
-          desc: 'бумага + акварель',
+          desc: 'бумага + акварель A4',
           category: 'shik',
           price: '17000'
         },
@@ -80,7 +80,7 @@ class App extends React.Component {
           id: 9,
           title: 'ship',
           img: 'ship.jpg',
-          desc: 'Масло - картон',
+          desc: 'Масло - картон 150X100',
           category: 'oil',
           price: '14000'
         },
@@ -88,7 +88,7 @@ class App extends React.Component {
           id: 10,
           title: 'view',
           img: 'view.jpg',
-          desc: 'Масло - картон',
+          desc: 'Масло - картон 150X100',
           category: 'oil',
           price: '16500'
         },
@@ -98,7 +98,7 @@ class App extends React.Component {
           img: 'shine.jpg',
           desc: 'священный камент',
           category: 'stons',
-          price: '30000'
+          price: '300000'
         },
         {
           id: 12,
@@ -155,6 +155,54 @@ class App extends React.Component {
           desc: 'Обояние и красота',
           category: 'stons',
           price: '11000'
+        },
+        {
+          id: 19,
+          title: 'ring 1',
+          img: 'ring 1.png',
+          desc: 'Титан + янтарь',
+          category: 'style',
+          price: '2100'
+        },
+        {
+          id: 20,
+          title: 'ring 2',
+          img: 'ring 2.png',
+          desc: 'Титан + янтарь',
+          category: 'style',
+          price: '1800'
+        },
+        {
+          id: 21,
+          title: 'ring 3',
+          img: 'ring 3.png',
+          desc: 'Нержавеющая сталь + янтарь',
+          category: 'style',
+          price: '3200'
+        },
+        {
+          id: 22,
+          title: 'ring 4',
+          img: 'ring 4.png',
+          desc: 'Титан + янтарь',
+          category: 'style',
+          price: '900'
+        },
+        {
+          id: 23,
+          title: 'ring 5',
+          img: 'ring 5.png',
+          desc: 'Нержавеющая сталь + Осколок Атлантиды',
+          category: 'style',
+          price: '88000'
+        },
+        {
+          id: 24,
+          title: 'ring 6',
+          img: 'ring 6.png',
+          desc: 'Медь + кварц',
+          category: 'style',
+          price: '1500'
         }
 
       ],

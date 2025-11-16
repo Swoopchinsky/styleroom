@@ -239,7 +239,7 @@ class App extends React.Component {
         {
           id: 29,
           title: 'les',
-          img: 'les 6.png',
+          img: 'les.png',
           desc: 'Холст - масло',
           category: 'oil',
           price: '3000'

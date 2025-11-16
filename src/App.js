@@ -203,6 +203,54 @@ class App extends React.Component {
           desc: 'Медь + кварц',
           category: 'style',
           price: '1500'
+        },
+        {
+          id: 25,
+          title: 'dama',
+          img: 'dama.png',
+          desc: 'Картон - масло',
+          category: 'shik',
+          price: '8000'
+        },
+        {
+          id: 26,
+          title: 'Daly',
+          img: 'Daly.png',
+          desc: 'Холст - масло',
+          category: 'oil',
+          price: '1200000'
+        },
+        {
+          id: 27,
+          title: 'madam',
+          img: 'madam.png',
+          desc: 'Картое - масло',
+          category: 'shik',
+          price: '210000'
+        },
+        {
+          id: 28,
+          title: 'asteroid',
+          img: 'asteroid.png',
+          desc: 'Упавшая звезда - аллюминий прошлых эпох',
+          category: 'stons',
+          price: '2320000'
+        },
+        {
+          id: 29,
+          title: 'les',
+          img: 'les 6.png',
+          desc: 'Холст - масло',
+          category: 'oil',
+          price: '3000'
+        },
+        {
+          id: 30,
+          title: 'kaps',
+          img: 'kaps.png',
+          desc: 'Картон',
+          category: 'style',
+          price: '7000'
         }
 
       ],

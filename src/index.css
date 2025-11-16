@@ -63,7 +63,7 @@ header .info {
   border-radius: 12px;
   margin-top: 14px;
   position: absolute;
-  margin-left: -860px;
+  margin-left: -120px;
 }
 
 header .butNews {
@@ -86,8 +86,8 @@ header .butNews.active {
 }
 
 header .news {
-  width: 540px;
-  background-color: #f3fae5b8;
+  width: 644px;
+  background-color: #f3fae5f0;
   position: relative;
   z-index: 1500;
   font-size: 42px;
@@ -95,7 +95,7 @@ header .news {
   border-radius: 12px;
   margin-top: 14px;
   position: absolute;
-  margin-left: -194px;
+  margin-left: -120px;
 }
 
 header .butBrain {
@@ -118,7 +118,7 @@ header .butBrain.active {
 }
 
 header .brain {
-  width: 240px;
+  width: 644px;
   background-color: #fcfff4;
   position: relative;
   z-index: 1500;
@@ -127,7 +127,7 @@ header .brain {
   border-radius: 12px;
   margin-top: 14px;
   position: absolute;
-  margin-left: 284px;
+  margin-left: -120px;
 }
 
 
@@ -146,7 +146,7 @@ header .shop-cart-button.active {
 
 header .shop-cart {
   position: absolute;
-  top: 50px;
+  top: 96px;
   right: 0;
   width: 480px;
   background: #eefce4;

@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/styleroom/static/css/main.2828ec15.css",
-    "main.js": "/styleroom/static/js/main.2c1fe475.js",
-    "static/media/styleroom.jpg": "/styleroom/static/media/styleroom.60970e62716f8494f087.jpg",
+    "main.css": "/styleroom/static/css/main.6cf9d269.css",
+    "main.js": "/styleroom/static/js/main.6620ba85.js",
+    "static/media/styleroomv1.jpg": "/styleroom/static/media/styleroomv1.456549e7d8d760255cc8.jpg",
     "index.html": "/styleroom/index.html",
-    "main.2828ec15.css.map": "/styleroom/static/css/main.2828ec15.css.map",
-    "main.2c1fe475.js.map": "/styleroom/static/js/main.2c1fe475.js.map"
+    "main.6cf9d269.css.map": "/styleroom/static/css/main.6cf9d269.css.map",
+    "main.6620ba85.js.map": "/styleroom/static/js/main.6620ba85.js.map"
   },
   "entrypoints": [
-    "static/css/main.2828ec15.css",
-    "static/js/main.2c1fe475.js"
+    "static/css/main.6cf9d269.css",
+    "static/js/main.6620ba85.js"
   ]
 }

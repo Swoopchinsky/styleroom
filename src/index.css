@@ -54,8 +54,8 @@ header .butInfo.active {
 }
 
 header .info {
-  width: 644px;
-  background-color: #f3fae5d7;
+  width: 634px;
+  background-color: #fcfff7;
   position: relative;
   z-index: 1500;
   font-size: 42px;
@@ -63,7 +63,7 @@ header .info {
   border-radius: 12px;
   margin-top: 14px;
   position: absolute;
-  margin-left: -120px;
+  margin-left: -110px;
 }
 
 header .butNews {
@@ -86,8 +86,8 @@ header .butNews.active {
 }
 
 header .news {
-  width: 644px;
-  background-color: #f3fae5f0;
+  width: 634px;
+  background-color: #f9fcf2;
   position: relative;
   z-index: 1500;
   font-size: 42px;
@@ -95,7 +95,7 @@ header .news {
   border-radius: 12px;
   margin-top: 14px;
   position: absolute;
-  margin-left: -120px;
+  margin-left: -110px;
 }
 
 header .butBrain {
@@ -215,7 +215,7 @@ header .shop-cart .summa {
 
 header .presentation {
   margin: 50px 0;
-  background: url('./img/styleroom.jpg') no-repeat;
+  background: url('./img/styleroomv1.jpg') no-repeat;
   width: 1400px;
   height: 646px;
   border-radius: 40px;
@@ -227,25 +227,25 @@ header .presentation {
 }
 
 header .presentation::after {
-  content: 'Лето Рядом';
+  content: 'Искусством называется умение сделать что-то из ничего и продать. ';
   position: absolute;
-  top: 100px;
-  left: 320px;
-  width: 300px;
-  font-size: 42px;
+  top: 500px;
+  left: 60px;
+  width: 700px;
+  font-size: 47px;
   font-weight: 500;
   color: #f8fdf7;
 }
 
 header .presentation::before {
-  content: 'Лови Момент';
+  content: 'Без эмоций ';
   position: absolute;
-  top: 78px;
-  left: 340px;
+  top: 60px;
+  left: 60px;
   width: 300px;
-  font-size: 30px;
+  font-size: 47px;
   font-weight: 500;
-  color: #f8fdf7;
+  color: #fcfffa;
 }
 
 .categories div {
